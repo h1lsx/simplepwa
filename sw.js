@@ -45,9 +45,13 @@ self.addEventListener("install", event => {
 				"share.jpg", // Social media sharing
 				"style.css", // Main CSS file
 				"/index/",
-				"/index/localforage.js"
-				"/index/index.html"
-				"/index/"
+				"/index/localforage.js",
+				"/index/index.html",
+				"/index/audio-worklet.js",
+				"/index/dark.css",
+				"/index/build/",
+				"/index/build/nds.js",
+				"/index/build/nds.wasm"
 			]);
 		})
 	);
